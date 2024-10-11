@@ -8,14 +8,16 @@ function TodoSearch() {
         setSearchValue,
     } = React.useContext(TodoContext);
     return (
-        <input 
-            placeholder='Search your task' 
-            className='TodoSearch'
-            value={searchValue}
-            onChange={(event) => {
-                setSearchValue(event.target.value); 
-            }} 
-        />
+        <div className='toDoSearch-Container'>
+            <input 
+                placeholder='Buscar tarea' 
+                className='TodoSearch'
+                value={searchValue}
+                onChange={(event) => {
+                    setSearchValue(event.target.value); 
+                }} 
+            />
+        </div>
     );
 }
 

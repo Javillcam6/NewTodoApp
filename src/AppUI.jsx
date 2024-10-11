@@ -4,7 +4,6 @@ import { TodoSearch } from './componentes/TodoSearch/TodoSearch'
 import { TodoList } from './componentes/TodoList/TodoList'
 import { TodoItem } from './componentes/TodoItem/TodoItem'
 import { CreateTodoButton } from './componentes/CreateTodoButton/CreateTodoButton'
-import { TodoTittle } from './componentes/TodoTittle/TodoTittle'
 import { TodosError } from './componentes/AppUiComponnets/TodoError'
 import { TodosLoading } from './componentes/AppUiComponnets/TodosLoading'
 import { EmptyTodos } from './componentes/AppUiComponnets/EmptyTodos'
@@ -12,6 +11,7 @@ import './App.css'
 import { TodoContext } from './TodoContext/TodoContext';
 import { Modal } from './Modal/Modal';
 import { TodoForm } from './componentes/TodoForm/TodoForm'
+import { InfoTodo } from './componentes/InfoTodo/InfoTodo';
 
 
 function AppUI() {
@@ -26,7 +26,7 @@ function AppUI() {
     } = React.useContext(TodoContext)
     return (
         <>
-        <TodoTittle/>
+        <InfoTodo />
         <TodoCounter />
         <TodoSearch />
             <TodoList>

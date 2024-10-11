@@ -5,7 +5,6 @@
   font-size: 62.5%;
 }
 #root{
-  margin: 0 24px;
   position: relative;
   min-height: 100vh;
   --primary-text-color: rgb(240, 240, 240);
@@ -13,9 +12,10 @@
 }
 
 body {
-  background: linear-gradient(135deg, #938c97, #ffffff, #899fb4);
-    font-family: "Montserrat", sans-serif;
+    
+  font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
-}
+    background: linear-gradient(to bottom right, #d8a677, #c6d4d3, #bccaca, #c7a7ad);
+  }

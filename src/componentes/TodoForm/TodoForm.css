@@ -38,7 +38,7 @@ textarea{
 }
 textarea:hover, 
 textarea:focus{
-    border: 2px solid #CA9911;
+    border: 2px solid rgb(221, 221, 221);
     outline: none;
 }
 
@@ -59,8 +59,9 @@ textarea:focus{
 }
 
 .TodoForm-button--add{
-    background-color: #CA9911;
+    background-color: #0d8502;
     box-shadow: 0px 5px 25px rgba(243, 227, 174, 0.5);
+    color: #fff;
 }
 
 .TodoForm-button--cancel{

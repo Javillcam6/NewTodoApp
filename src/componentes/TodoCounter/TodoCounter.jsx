@@ -13,7 +13,7 @@ function TodoCounter () {
         ? <h1 className='TodoCounter'>Has completado todos los TODOS, ¡FELICIDADES!</h1>
         :
         <h1 className='TodoCounter'>
-        You have completed <span>{completedTodos}</span> out of <span>{totalTodos}</span> tasks
+        Has acompletado <span>{completedTodos}</span> de <span>{totalTodos}</span> tareas
         </h1>
     )
 }
